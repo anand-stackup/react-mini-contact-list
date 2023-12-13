@@ -1,0 +1,25 @@
+.header{
+    background-color: var(--primary-color);
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.header input{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.header input::placeholder{
+    color: var(--placeholder-color);
+}
+
+.header input:focus-visible{
+    outline: unset;
+}

@@ -1,0 +1,70 @@
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* width: 30%; */
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.edit-form input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+}
+
+.edit-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-header button{
+    background-color: var(--primary-color);
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.edit-header i{
+    color: #fff;
+}
+
+.img-prev{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.img-prev input[type='file'] {
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    
+  }
+
+.img-prev input[type='file']::file-selector-button {
+    border: none;
+    padding: 10px;
+  }
+
+.img-prev-box{
+    border: 1px solid var(--primary-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img-prev-box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.edit-btn.edit-modal{
+    background-color: var(--primary-color);
+    width: 70%;
+}

@@ -1,0 +1,156 @@
+.main-section{
+    background-image: linear-gradient(0deg, var(--tertiary-color), var(--secondary-color));
+    height: 100vh;
+    padding: 50px;
+}
+
+.table{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+.table thead{
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 17px;
+}
+
+.table thead th {
+    /* border: 1px solid black; */
+    border: none;
+    padding: 10px;
+}
+
+.table thead th:nth-child(1){
+    width: 80px;
+}
+
+.table thead th:nth-child(6){
+    width: 100px;
+}
+
+.table thead th:nth-child(2){
+    width: 100px;
+}
+
+.table thead th:nth-child(3){
+    width: 200px;
+}
+
+.table tbody{
+    position: relative;
+}
+
+.table tbody td {
+    border-bottom: 1px solid var(--placeholder-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.table tbody tr:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.image img{
+    border-radius: 8px;
+    height: 100%;
+}
+
+.add-btn{
+    border: none;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+    background-color: #33b249;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-color: #33b248d0;
+}
+
+.edit-btn{
+    border: none;
+    padding: 6px 10px;
+    /* width: 100%; */
+    margin-bottom: 4px;
+    background-color: #5783db;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.edit-btn:hover{
+    background-color: #5783dbd5;
+}
+
+.delete-btn{
+    border: none;
+    padding: 6px 10px;
+    /* width: 100%; */
+    background-color: #ED0800;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: #ed0800d0;
+}
+
+.initials{
+    background-color: var(--primary-color);
+    /* padding: 13px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    margin: auto;
+}
+
+.menu-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(193, 192, 192);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20;
+    right: 0;
+}
+
+.menu button{
+    width: 32px;
+    height: 34px;
+}

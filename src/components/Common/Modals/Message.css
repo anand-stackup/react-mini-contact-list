@@ -1,0 +1,30 @@
+.message-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    width: 500px;
+    height: 160px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.message-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.message-div button{
+    background-color: var(--primary-color);
+    padding: 8px 10px;
+    width: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+.message-div i{
+    color: #fff;
+}
